@@ -1,0 +1,121 @@
+.container-projects-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 6rem;
+
+    padding: 1rem 0;
+    width: 100%;
+
+    .card-img-projects {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            border-radius: 69px;
+            width: 500px;
+            height: auto;
+        }
+    }
+
+    .button-saiba {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: flex-start;
+
+        text-decoration: none;
+        background: #284482;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        color: white;
+        font-family: "Hewitt";
+        font-style: normal;
+        font-size: 0.875rem;
+        line-height: 18px;
+        text-align: center;
+        padding: 11px 30px;
+        border: 0;
+    }
+
+    .card-text {
+        width: 100%;
+
+        h3 {
+            font-family:"Hewitt";
+            font-style: normal;
+            font-size: 2.125rem;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+            margin-left: 5rem;
+        }
+
+        p {
+            font-family: "Hewitt";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.625rem;
+            line-height: 28px;
+            text-align: justify;
+            letter-spacing: 0.2px;
+            color: #434343;
+            margin-top: 2rem;
+            margin-left: 5rem;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container-projects-section {
+        display: block;
+        justify-content: center;
+        flex-direction: column-reverse;
+        margin: auto;
+        padding: 1rem 0;
+
+        .card-responsivo {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .card-img-projects{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            order: 2;
+
+            img{
+                border-radius: 69px;
+                width: 80%;
+                height: auto;
+            }
+        }
+ 
+        .card-text {
+            width: 100%;
+
+            h3 {
+                text-align: center;
+                font-family: "Hewitt";
+                font-style: normal;
+                font-size: 20px;
+                line-height: 40px;
+                letter-spacing: 0.1px;
+                color: #FFFFFF;
+                margin-left: 0;
+            }          
+
+            p {
+                font-family: "Hewitt";
+                font-style: normal;
+                font-size: 14px;
+                line-height: 28px;
+                text-align: justify;
+                letter-spacing: 0.2px;
+                color: #434343;
+                margin: 32px 54px;
+            }
+        }
+    }
+}

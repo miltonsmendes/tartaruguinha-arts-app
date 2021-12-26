@@ -1,0 +1,96 @@
+.container-history-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 6rem;
+
+    padding: 1rem 0;
+    width: 100%;
+
+
+    .card-img-historia{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            border-radius: 69px;
+            width: 500px;
+            height: auto;
+        }
+    }
+
+    .card-text{
+        width: 100%;
+
+        h3{
+            font-family:"Hewitt";
+            font-style: normal;
+            font-size: 2.125rem;
+            line-height: 40px;
+            letter-spacing: 0.1px;
+            color: #FFFFFF;
+        }
+
+        p{
+            font-family: "Hewitt";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 1.625rem;
+            line-height: 28px;
+            text-align: justify;
+            letter-spacing: 0.2px;
+            color: #434343;
+            margin-top: 2rem;
+            margin-right: 5rem;
+            
+        }
+    }
+}
+
+    @media (max-width: 1200px) {
+    .container-history-section {
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+        padding: 1rem 0;
+    
+        .card-img-historia{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            img{
+                border-radius: 69px;
+                width: 80%;
+                height: auto;
+            }
+        }
+    
+        .card-text{
+            width: 100%;
+            h3{
+                text-align: center;
+                font-family:"Hewitt";
+                font-style: normal;
+                font-size: 1.25rem;
+                line-height: 40px;
+                letter-spacing: 0.1px;
+                color: #FFF;
+            }
+    
+            p{
+                text-align: center;
+                font-family: "Hewitt";
+                font-style: normal;
+                font-weight: 705;
+                font-size: 14px;
+                line-height: 28px;
+                text-align: justify;
+                letter-spacing: 0.2px;
+                color: #434343;
+                margin: 32px 54px;
+            }
+        }
+    }
+}

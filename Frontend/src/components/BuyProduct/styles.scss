@@ -1,0 +1,52 @@
+.container-buy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #9BC9C8;
+    color: #FFFFFF;
+    justify-content: center;
+
+    padding: 10rem 0;
+
+    font-size: 1.625rem;
+    font-family: 'HewittBook';
+
+    line-height: 2;
+    
+    .info{
+        margin-top: 2rem;
+    }
+
+    .buy-title {
+        font-size: 2.125rem;
+        font-family: 'Hewitt';
+        margin-bottom: 1.125rem;
+    }
+
+    .container-icons {
+        display: flex;
+        flex-direction: row;
+     
+        img {
+            margin-right: 0.5rem;
+            color: #284482;
+            width: 50px;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container-buy {
+        display: flex;
+        padding: 5rem 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-buy {
+        display: flex;
+        padding: 1rem;
+
+        font-size: 1.2rem;
+    }
+}

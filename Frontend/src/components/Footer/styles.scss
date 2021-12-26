@@ -1,0 +1,39 @@
+.container-footer {
+    display: flex;
+    background: #5AA897;
+    justify-content: space-between;
+    padding: 3rem;
+
+
+    :first-child {
+        font-family: "Hewitt";
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+    }
+
+    :last-child {
+        img {
+            width: 50px;
+            height: auto;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .container-footer {
+        display: flex;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .container-footer {
+        display: flex;
+
+        :first-child {
+            font-size: 1.5rem;
+        }
+    }
+}
