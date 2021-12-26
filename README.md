@@ -28,7 +28,7 @@ In this App I could pratice these features:
 
 # Preview screens
 
-![Home Screen](https://github.com/miltonsmendes/ignews/blob/main/screens/Home%20Screen.PNG)
-![Pay Screen](https://github.com/miltonsmendes/ignews/blob/main/screens/Pay%20Screen.PNG)
-![Posts Screen](https://github.com/miltonsmendes/ignews/blob/main/screens/Posts%20Screen.PNG)
-![Preview Screen](https://github.com/miltonsmendes/ignews/blob/main/screens/Preview%20Screen.PNG)
+![First Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts1.PNG)
+![Second Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts2.PNG)
+![Third Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts3.PNG)
+![Fourth Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts4.PNG)
