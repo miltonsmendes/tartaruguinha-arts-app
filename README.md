@@ -1,8 +1,3 @@
-# tartaruguinha-arts-app
-
-
-
-
 # Tartaruguinha Art's
 
 A whole webapp (Backend and Frontend) created to fourth Gama Academy project. It is a product showcase of a real store named Tartaruguinha Arts.
