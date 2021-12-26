@@ -32,3 +32,5 @@ In this App I could pratice these features:
 ![Second Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts2.PNG)
 ![Third Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts3.PNG)
 ![Fourth Screen](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/taarts4.PNG)
+![Mobile Preview](https://github.com/miltonsmendes/tartaruguinha-arts-app/blob/main/Preview%20Screens/mobile-version.gif)
+
