@@ -7,13 +7,13 @@ https://tartaruguinha-arts.netlify.app/
 
 # Team
 Designers:
-Camila Lima
-Fabrizio Caneppele
-Fernanda Campos
-Theo Costa
+* Camila Lima
+* Fabrizio Caneppele
+* Fernanda Campos
+* Theo Costa
 
 Developers:
-Milton Mendes
+* Milton Mendes
 
 # Technologies
 
